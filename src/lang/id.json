@@ -1,0 +1,25 @@
+{
+  "intro": "Berikut adalah daftar semua perintah yang dapat Anda gunakan dengan bot.",
+  "sign": {
+    "title": "Masuk untuk melanjutkan",
+    "with": "Masuk dengan",
+    "btn": "Masuk",
+    "failed": "Gagal melakukan autentikasi",
+    "success": "Berhasil masuk, memuat halaman..."
+  },
+  "userOrEmail": {
+    "label": "Nama Pengguna atau Email",
+    "placeholder": "Ketik nama pengguna atau email"
+  },
+  "email": {
+    "label": "Email",
+    "placeholder": "Ketik email"
+  },
+  "password": {
+    "label": "Kata Sandi",
+    "placeholder": "Ketik kata sandi"
+  },
+  "back": {
+    "home": "Kembali ke Beranda"
+  }
+}

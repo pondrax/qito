@@ -1,0 +1,61 @@
+{
+  "intro": "The following is a list of all the commands you can use with the bot.",
+  "sign": {
+    "title": "Sign In to continue",
+    "with": "Continue with",
+    "failed": "Failed to authenticate",
+    "success": "Success sign in, loading the page...",
+    "btn": {
+      "in": "Sign In",
+      "out": "Sign Out"
+    },
+    "titleAdmin": "Sign in to Admin"
+  },
+  "userOrEmail": {
+    "label": "Username or Email",
+    "placeholder": "Type username or email"
+  },
+  "email": {
+    "label": "Email",
+    "placeholder": "Type email"
+  },
+  "password": {
+    "label": "Password",
+    "placeholder": "Type password"
+  },
+  "back": {
+    "home": "Back to Home"
+  },
+  "home": {
+    "naration": "Welcome to the gateway of innovation and limitless possibilities! In the world of app development, we present to you the Starter Pack of App Development, where SvelteKit and PocketBase unite to elevate your digital creations to new heights.",
+    "welcome": "Welcome to {{name}}",
+    "btn": "Home"
+  },
+  "loading": "Loading...",
+  "profile": "Profile",
+  "users": {
+    "title": "Users Collections"
+  },
+  "logs": {
+    "title": "Request Logs"
+  },
+  "audit": {
+    "indeks-kami": {
+      "title": "Indeks Kami Details"
+    },
+    "indekskami": {
+      "title": "Indeks Kami"
+    }
+  },
+  "save": {
+    "btn": "Save"
+  },
+  "action": {
+    "saved": "Data Saved"
+  },
+  "all": {
+    "list": "LIST",
+    "info": "INFO",
+    "monitoring": "MONITORING"
+  }
+}
