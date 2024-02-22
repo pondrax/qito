@@ -2,6 +2,8 @@ import { loadTranslations } from '$lib/lang';
 
 // const pages = Object.keys(import.meta.glob('./**/+page.svelte'))
 //   .map(key => key.replace(/\.|\+page\.svelte/g, ''))
+export const prerender = true;
+
 
 export async function load({ url, data }) {
   const { pathname } = url;

@@ -8,10 +8,13 @@
    * @type {string | any[]}
    */
   let selections = [];
-  /**
-   * @type {import("pocketbase").ListResult<import("pocketbase").LogRequestModel>}
-   */
-  let collections;
+  // /**
+  //  * @type {import("pocketbase").ListResult<import("pocketbase").LogRequestModel>}
+  //  */
+  
+  let collections={
+    items:[]
+  };
 
   onMount(async () => {
     await refresh();
@@ -20,32 +23,32 @@
 
   async function refresh() {
     $loading = true;
-    collections = await db.logs.getRequestsList(undefined, undefined, {
-      filter: `auth != "admin"`,
-      sort: "-created",
-    });
+    // collections = await db.logs.getRequestsList(undefined, undefined, {
+    //   filter: `auth != "admin"`,
+    //   sort: "-created",
+    // });
     console.log(collections);
     setTimeout(() => {
       $loading = false;
     }, 300);
   }
   async function loadMore() {
-    const more = await db.logs.getRequestsList(
-      collections.page + 1,
-      undefined,
-      {
-        filter: `auth != "admin"`,
-        sort: "-created",
-      }
-    );
-    collections = {
-      ...more,
-      items: [...collections.items, ...more.items],
-    };
+    // const more = await db.logs.getRequestsList(
+    //   collections.page + 1,
+    //   undefined,
+    //   {
+    //     filter: `auth != "admin"`,
+    //     sort: "-created",
+    //   }
+    // );
+    // collections = {
+    //   ...more,
+    //   items: [...collections.items, ...more.items],
+    // };
   }
 </script>
 
-<div>
+<!-- <div>
   <div py-5>
     <div flex gap-1>
       <h1 text-xl>{$t("logs.title")}</h1>
@@ -117,4 +120,4 @@
       <button on:click={loadMore}>Load More</button>
     </div>
   </div>
-</div>
+</div> -->
