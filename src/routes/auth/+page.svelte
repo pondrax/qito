@@ -85,7 +85,8 @@
             <button btn="~ outline" w-full flex h-auto justify-start gap-5>
               <img src={`/oauth/${method.name}.svg`} alt="provider" h-8 p-1 />
               {$t("sign.with")}
-              {method.name}
+              {method.displayName}
+              <!-- {JSON.stringify(method)} -->
             </button>
           </form>
         {/each}
