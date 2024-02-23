@@ -5,9 +5,9 @@ services:
   base:
     build: .
     restart: unless-stopped
-    working_dir: /pb
+    working_dir: /app
     volumes:
-      - ./base:/pb/
+      - ./base:/app/
     #   - ./server/sessions:/src/server/sessions
     #   - ./server/logs:/src/server/logs
       # - /src/build
