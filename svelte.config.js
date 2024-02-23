@@ -11,7 +11,7 @@ const config = {
 			// default options are shown. On some platforms
 			// these options are set automatically — see below
 			pages: 'base/pb_public',
-			assets: 'build',
+			assets: 'base/pb_public',
 			fallback: undefined,
 			precompress: false,
 			strict: true

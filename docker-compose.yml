@@ -1,0 +1,19 @@
+version: '3.6'
+
+services:
+
+  base:
+    build: .
+    restart: unless-stopped
+    working_dir: /pb
+    volumes:
+      - ./base:/pb/
+    #   - ./server/sessions:/src/server/sessions
+    #   - ./server/logs:/src/server/logs
+      # - /src/build
+      # - /src/node_modules
+    ports:
+      - 8090:8090
+      # - 5173:5173
+    # environment:
+    #   NODE_ENV: production

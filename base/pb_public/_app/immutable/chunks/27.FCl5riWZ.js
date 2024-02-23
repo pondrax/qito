@@ -1,0 +1,1 @@
+import"./disclose-version.15-3dQtY.js";import{p as o,a}from"./runtime.bbI-llpg.js";function t(p,e){a(e,!1),o()}const n=Object.freeze(Object.defineProperty({__proto__:null,default:t},Symbol.toStringTag,{value:"Module"}));export{t as _,n as a};
