@@ -13,7 +13,7 @@ services:
       # - /src/build
       # - /src/node_modules
     ports:
-      - 8090:8090
+      - 8080:8080
       # - 5173:5173
     # environment:
     #   NODE_ENV: production
