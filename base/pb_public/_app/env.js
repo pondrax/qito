@@ -1,1 +1,1 @@
-export const env={"PUBLIC_APP_NAME":"Qito Nyaman","PUBLIC_APP_VERSION":"3.0.0~beta","PUBLIC_BASE_URL":"http://127.0.0.1:8090","PUBLIC_BASEDEV_URL":"http://127.0.0.1:8090"}
+export const env={"PUBLIC_APP_NAME":"Qito Nyaman","PUBLIC_APP_VERSION":"3.0.0~beta","PUBLIC_BASE_URL":"https://sandi.mojokertokota.go.id","PUBLIC_BASEDEV_URL":"http://127.0.0.1:8090"}
