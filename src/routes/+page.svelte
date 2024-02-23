@@ -5,7 +5,8 @@
 
   let loginUrl = $state()
   $effect(()=>{
-    login()
+    // login()
+    loginUrl = db.authStore.model?'/app':'/auth';
   })
   async function login(){
     await db.collection("users").authWithOAuth2({
@@ -37,7 +38,7 @@
       <div whitespace-pre-wrap>
         {JSON.stringify(db.authStore.model, null, 2)}
       </div>
-      <a href={loginUrl}>test</a>
+      <!-- <a href={loginUrl}>test</a> -->
       <!-- {login()} -->
     </div>
   </div>
