@@ -16,7 +16,7 @@ $app.rootCmd.addCommand(new Command({
 
 
 // Fetch DNS every 2 minutes
-cronAdd("audit", "*/3 * * * *", () => {
+cronAdd("audit", "*/5 * * * *", () => {
   // return;
   const lib = require(`${__hooks}/lib.js`)
   lib.audit()

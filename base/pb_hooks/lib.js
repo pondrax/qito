@@ -47,11 +47,19 @@ module.exports = {
     }))
 
     $app.dao().db()
-      .newQuery(`SELECT s.id, name, sa.created FROM sites s
+      .newQuery(`SELECT s.id, name, sa.created 
+      FROM sites s
       LEFT JOIN sitesAudit sa ON s.id = sa.siteId AND date(sa.created) = strftime('%Y-%m-%d', 'now')
       WHERE sa.created IS NULL
       GROUP BY s.id
-      LIMIT 10`)
+      ORDER BY RANDOM() 
+      LIMIT 10;
+      `)
+      // SELECT s.id, name, sa.created FROM sites s
+      // LEFT JOIN sitesAudit sa ON s.id = sa.siteId AND date(sa.created) = strftime('%Y-%m-%d', 'now')
+      // WHERE sa.created IS NULL
+      // GROUP BY s.id
+      // LIMIT 10
       .all(sites)
 
     sites.map(s => {
