@@ -1,1 +1,0 @@
-import"./disclose-version.15-3dQtY.js";import{p as r,a as o}from"./runtime.N9sK9yCX.js";import{z as p,H as s,d as f}from"./render.FNm7pgUH.js";var g=f("this is page",!0);function l(e,a){o(a,!1);var t=s(e,!0,g);p(e,t),r()}const u=Object.freeze(Object.defineProperty({__proto__:null,default:l},Symbol.toStringTag,{value:"Module"}));export{l as _,u as a};

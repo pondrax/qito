@@ -7,7 +7,7 @@
   let version = $state();
   $effect(() => {
     // login()
-    loginUrl = db.authStore.model ? "/app" : "/auth";
+    loginUrl = db.authStore.isValid ? "/app" : "/auth";
     getVersion();
   });
   async function login() {

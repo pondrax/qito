@@ -1,0 +1,1 @@
+import{i as r,H as o,P as p,d as s}from"./disclose-version.DshyVd_Z.js";import{p as f,a as i}from"./runtime.Cuj63gjm.js";var g=s("this is page",!0);function l(a,e){i(e,!1),r();var t=p(a,!0,g);o(a,t),f()}const u=Object.freeze(Object.defineProperty({__proto__:null,default:l},Symbol.toStringTag,{value:"Module"}));export{l as _,u as a};

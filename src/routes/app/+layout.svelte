@@ -90,7 +90,7 @@
         </div>
       </div>
     </div>
-    <div drawer-content p-2 min-w-0 min-h-screen w-full>
+    <div drawer-content p-2 min-w-0 min-h-screen w-full overflow-x-auto>
       <!-- Page content here -->
       <div bg-base-a min-h-screen rounded-box p-3 class="svg-app">
         <div mb-10 fixed top-5 z-50 left-5>

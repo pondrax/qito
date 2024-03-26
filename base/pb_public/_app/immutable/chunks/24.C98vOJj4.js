@@ -1,0 +1,1 @@
+import{i as r,H as o,P as p,d as s}from"./disclose-version.DshyVd_Z.js";import{p as f,a as g}from"./runtime.Cuj63gjm.js";var l=s("Dev Pages",!0);function _(e,a){g(a,!1),r();var t=p(e,!0,l);o(e,t),f()}const u=Object.freeze(Object.defineProperty({__proto__:null,default:_},Symbol.toStringTag,{value:"Module"}));export{_,u as a};

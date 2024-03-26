@@ -206,7 +206,7 @@
       </div>
     </div>
 
-    <div flex pt-5 gap-5 justify-between>
+    <div flex pt-5 gap-5 md:justify-between flex-wrap>
       <div whitespace-nowrap>
         <span btn="~ sm primary">Total : {status.total}</span>
         <span btn="~ sm success">Success : {status.success}</span>
