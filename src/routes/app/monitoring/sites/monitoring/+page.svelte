@@ -258,6 +258,7 @@
               src={db.getFileUrl(
                 item?.expand?.screenshot,
                 item?.expand?.screenshot?.media,
+                {'thumb': '640x360'}
               )}
               alt="Album"
               rounded-xl
